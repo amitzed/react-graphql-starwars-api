@@ -1,0 +1,7 @@
+{
+  "name": "GraphQL-StarWars",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Amit Zaman",
+  "license": "MIT"
+}
