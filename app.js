@@ -16,3 +16,25 @@ const typeDefs = gql`
     people: [Person]
   }
 `;
+
+const resolvers = {
+  Query: {
+    people: async () => {
+      try {
+        const people = await axios.get('https://swapi.dev/api/people/')
+
+        return people.data.results.map(({ id, name, birth_year, height, mass, hair_color, gender }) => ({
+          id,
+          name,
+          birth_year,
+          height,
+          mass,
+          hair_color,
+          gender
+        }))
+      } catch (error) {
+        throw error
+      }
+    },
+  },
+}
