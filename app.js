@@ -20,7 +20,7 @@ const resolvers = {
   Query: {
     people: async () => {
       try {
-        const people = await axios.get('https://swapi.dev/api/people/')
+        const people = await axios.get('https://swapi.dev/api/people')
 
         return people.data.results.map(({ name, birth_year, height, mass, hair_color, gender }) => ({
           name,
