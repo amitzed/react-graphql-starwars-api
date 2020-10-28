@@ -2,7 +2,7 @@
 # React / GraphQL
 
 To View
-1) go to 'https://g7w5y.sse.codesandbox.io/
+1) To start server via codeandsandbox: Go to 'https://g7w5y.sse.codesandbox.io/
 2) locally naviagte to client folder via terminal,
 3) yarn start
 4) in browser open localhost:3000
