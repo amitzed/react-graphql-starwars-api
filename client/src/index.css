@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #002449;
+  background-image: url('https://media.giphy.com/media/MaThe6p8WAKbf9NDDM/giphy.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 code {
